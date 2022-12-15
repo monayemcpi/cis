@@ -1,0 +1,361 @@
+/*--------------------------------------------------------------------------------------
+Theme Name: WEB PROJECT
+Theme URI: http://webporject.com
+Author URI: http://techitbd.com/about.html
+Description: best web project template
+Author: MONAYEM 
+Version: 1.0
+----------------------------------------------------------------------------------------*/
+
+
+/*
+---------------------------
+    TABLE OF CONTENT
+---------------------------
+
+1. FONTS
+2. HEADER WITH NAV
+3. SLIDER 
+4. BODY 
+5. FOOTER
+5. TYPHOGRAPHY
+*/
+
+
+/*START FONTS*/
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.eot') format('embedded-opentype'),
+    url('../fonts/Lato-Regular.woff2') format('woff2'),
+    url('../fonts/Lato-Regular.woff') format('woff'),
+    url('../fonts/Lato-Regular.ttf') format('truetype'),
+    url('../fonts/Lato-Regular.svg') format('svg'),
+    url('../fonts/Lato-Regular.otf') format('opentype');
+}
+
+
+/*END FONTS*/
+
+
+/*START TYPHOGRAPHY*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    color: #777;
+}
+
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.card {
+    background: #0866C6;
+    height: 100px;
+}
+
+.btn,
+.form-control {
+    border-radius: 0px;
+}
+.table-responsive
+{
+    margin-top:20px;
+}
+
+
+.btn-inline
+{
+    float:left;
+    margin-right: 2px;
+}
+
+/*END TYPHOGRAPHY*/
+
+#wrapper {
+    width: 100%;
+}
+
+
+/*START HEADER*/
+
+.header-main .navbar {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background: #0866C6;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.header-main.navbar .navbar-header {
+    height: 60px;
+}
+
+.header-main .navbar .navbar-header a {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lato-Regular', sans-serif;
+    transition: all 0.5s ease;
+    font-weight: 700;
+}
+
+.header-main .navbar .navbar-header a:hover {
+    color: #333;
+}
+
+
+/*END HEADER*/
+
+
+/*START SIDEBAR*/
+
+.sidebar {
+    width: 240px;
+    background: #1F1F1F;
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    padding: 20px 0px;
+    top: 60px;
+}
+
+.sidebar .nav {
+    padding: 0px;
+}
+
+.sidebar>.nav>li {
+    border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+    transition: all 0.5s ease;
+}
+
+.sidebar>.nav>li>a {
+    background: transparent none repeat scroll 0 0;
+    color: #ffffff;
+    text-shadow: none;
+    padding: 15px 10px;
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+}
+
+.sidebar>.nav>li>a i {
+    padding-right: 10px;
+}
+
+.sidebar .nav .active {
+    background: #0866C6;
+    color: #fff;
+}
+
+#main-menu .active a:hover {
+    color: #fff;
+}
+
+.sidebar>.nav>li:hover {
+    /* background: #0866C6 ; */
+}
+
+.nav-second-level {
+    display: none;
+}
+
+.sidebar-dropdown .nav-second-level {
+    display: block;
+}
+
+
+/*END SIDEBAR*/
+
+
+/*START MAIN*/
+
+.main-section {
+    background: #fff;
+    margin-left: 240px;
+    padding: 10px 30px;
+    text-align: justify;
+    font-size: 14px;
+    font-family: 'Lato-Regular';
+}
+
+#page-inner {
+    background-color: transparent;
+    margin: 10px 20px 10px 0;
+    min-height: 1200px;
+    padding: 15px 30px;
+    width: 100%;
+}
+
+#page-wrapper {
+    box-shadow: 0 0 10px #757575;
+    position: relative;
+    top: 40px;
+    margin: 0 0 0 240px;
+    min-height: 1200px;
+    padding: 0;
+    background: #e8e8e8;
+}
+
+.page-header {
+    background-color: #fff;
+    border-bottom: 1px solid transparent;
+    margin: 0;
+    padding: 32px 22px 32px 15px;
+    text-align: left;
+}
+
+.breadcrumb {
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    list-style: outside none none;
+    margin-bottom: 20px;
+    padding: 12px 10px 12px 20px;
+}
+
+.blue {
+    background-color: #0866c6;
+    color: #fff;
+}
+
+.panel-left {
+    background: #0866c6 none repeat scroll 0 0;
+    border: 2px solid #4590da;
+    height: 100px;
+    margin: 12px;
+    overflow: hidden;
+    width: 100px;
+}
+
+.panel-right {
+    color: #ffffff;
+    float: left;
+    font-size: 16px;
+    font-weight: 100;
+    height: 124px;
+    margin-bottom: 0;
+    text-align: left;
+    text-shadow: none;
+}
+
+.panel-primary {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.panel-left .fa-5x {
+    color: rgba(255, 255, 255, 0.69);
+    font-size: 3em;
+    margin-bottom: 30px;
+    padding: 29px 0;
+}
+
+.panel {
+    border-radius: 0;
+}
+
+.top-navbar .nav>li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.top-navbar .nav>li>a {
+    color: #ffffff;
+    display: block;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+.top-navbar .dropdown-menu {
+    border: 0 none;
+    border-radius: 0 0 4px 4px;
+    min-width: 230px;
+}
+
+.dropdown-menu>li>a {
+    clear: both;
+    color: #333;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.42857;
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+
+.dropdown-user li {
+    margin: 8px 0;
+}
+
+.dropdown-user li a i {
+    padding-right: 10px;
+}
+
+.nav .nav-second-level li {
+    border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+    cursor: pointer;
+}
+
+.nav .nav-second-level li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav .nav-second-level li a i {
+    padding-right: 10px;
+}
+
+.nav .nav-second-level li:hover,
+.nav .nav-second-level li a:hover,
+{
+    background: transparent;
+}
+
+
+/* .nav-second-level li:hover
+{
+    background: #0866C6;
+    color:#fff;
+} */
+
+.nav-second-level li,
+#main-menu li a {
+    transition: all 0.5s ease;
+}
+
+
+/* #main-menu li a:hover 
+{
+    color:#0866C6;
+} */
+
+.login-section {
+    position: relative;
+    top: 100px;
+}
+
+.nav .nav-second-level li a:hover {
+    color: #333;
+}
+
+.criminal-image
+{
+    transition: transform .5s; 
+    cursor: pointer;
+    z-index: 101;
+}
+.criminal-image:hover
+{
+    transform: scale(3);
+}
+
+/*END MAIN*/
